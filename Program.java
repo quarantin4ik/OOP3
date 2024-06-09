@@ -99,7 +99,7 @@ public class Program {
         List<StreamGroup> sortedStreamGroups = streamService.sortStreamGroups(streamGroups);
 
         for (StreamGroup streamGroup : sortedStreamGroups) {
-            System.out.println("Поток с " + streamGroup.studentGroups.size() + " группами");
+            System.out.println("Поток включает " + streamGroup.studentGroups.size() + " группу(ы)");
         }
     }
 
